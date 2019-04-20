@@ -30,7 +30,7 @@ class PostsPage extends React.Component {
         return (
             <div>
                 <h1>Posts Page</h1>
-                <PostList posts={this.state.posts} isGrid={this.props.isGrid}/>
+                <PostList posts={this.state.posts}/>
             </div>
            
         )

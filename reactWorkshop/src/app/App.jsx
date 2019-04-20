@@ -8,19 +8,9 @@ import Main from './components/Main'
 import AppStore from './Posts/AppStore';
 
 
-class App extends React.Component {
-constructor(props){
-    super(props)
-    this.state = {
-        isGrid: true
-    }
-}
-
-     
+const App  = () =>  {
 
     
-
-    render() {
         return (
             <AppStore>
             <div>
@@ -31,6 +21,6 @@ constructor(props){
             </AppStore>
         )
     }
-}
+
 
 export default App
